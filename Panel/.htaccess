@@ -1,0 +1,15 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
+
+<Files "">
+    Allow from all
+</Files>
+
+php_value max_input_vars 9999999
+php_value upload_max_filesize 256M
+php_value post_max_size 256M
+php_value max_input_time 300
+php_value max_file_uploads 900000

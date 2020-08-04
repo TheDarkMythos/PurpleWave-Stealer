@@ -1,0 +1,36 @@
+.worldmap {
+	fill: #bba8bff5;
+	stroke: black;
+	stroke-width: 0.5px;
+}
+.worldmap:hover {
+	cursor: pointer;
+	fill: #f08080;
+	stroke: black;
+	stroke-width: 0.5px;
+}
+
+
+.worldmap_1 {
+	cursor: pointer;
+	fill: #b66dff;
+	stroke: black;
+	stroke-width: 0.5px;
+}
+.worldmap_1:hover {
+	fill: #f08080;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.worldmap_2 {
+	cursor: pointer;
+	fill: #8080f0;
+	stroke: black;
+	stroke-width: 0.5px;
+}
+.worldmap_2:hover {
+	fill: #0000ff;
+	stroke: black;
+	stroke-width: 1px;
+}
